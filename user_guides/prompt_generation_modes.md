@@ -1,11 +1,11 @@
 # Special prompt generation modes
 
-Currently in One Button Prompt there are 9 different prompt generation modes. There is the stanard mode, but additional modes have been added in.
+Currently in Two Button Prompt there are 9 different prompt generation modes. There is the stanard mode, but additional modes have been added in.
 
 Hopefully, they can be used to inspire you even more. Maybe you will even use a favorite one.
 
 ## Standard
-The default of One Button Prompt, and is used in most occasions to generate the prompt for you. While random, it is also very structured in the build of the prompt.
+The default of Two Button Prompt, and is used in most occasions to generate the prompt for you. While random, it is also very structured in the build of the prompt.
 
 In order to spice things up, there have been additional prompt generation modes added. Those generation modes are more random, and favor certain keywords above others.
 
@@ -154,7 +154,7 @@ Example prompts:
 
 ## subject only mode
 
-Will only generate a subject, with no additional frills. The subjects will still be complicated, with the normal One Button Prompt logic for creating a subject. Note that all the specials surrounding the subject are still in!
+Will only generate a subject, with no additional frills. The subjects will still be complicated, with the normal Two Button Prompt logic for creating a subject. Note that all the specials surrounding the subject are still in!
 
 Best used for models with strong artstyles build in. For the examples in this one I used revAnimated model
 

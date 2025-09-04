@@ -1,7 +1,7 @@
 # Wildcards
 In the backend of the code, some of the things run on wildcards. These can be used in the prompt prefix, prompt suffix and subject override fields. They get values from their specific related lists.
 
-Currently, One Button Prompt supports the following wildcards.
+Currently, Two Button Prompt supports the following wildcards.
 
 - -color-
 - -material-
@@ -48,19 +48,19 @@ Currently, One Button Prompt supports the following wildcards.
 In the user_files folder, you can place a file called custom_subjects.csv . If you use this -subjectfromfile- wildcard, it will select a random value from this file. Suggested use is on the Overwrite Subject field.
 
 # Dynamic Prompts extension and wildcards
-The [Dynamic Prompts extension](https://github.com/adieyal/sd-dynamic-prompts) might be considered the father of One Button Prompt. In that case [StylePile](https://github.com/some9000/StylePile) is its mother.
+The [Dynamic Prompts extension](https://github.com/adieyal/sd-dynamic-prompts) might be considered the father of Two Button Prompt. In that case [StylePile](https://github.com/some9000/StylePile) is its mother.
 
-However, Dynamic Prompts can be combined with One Button Prompt. You can use the wildcards supported by Dynamic Prompts also in the prompt prefix, prompt suffix and subject override fields.
+However, Dynamic Prompts can be combined with Two Button Prompt. You can use the wildcards supported by Dynamic Prompts also in the prompt prefix, prompt suffix and subject override fields.
 
 It also supports the Dynamic Prompts syntax of {cat|dog} to switch during batch processing.
 
-Basically, you can run Dynamic Prompts on top of One Button Prompt.
+Basically, you can run Dynamic Prompts on top of Two Button Prompt.
 
 Meaning that if you have managed your own wildcards before, you can use them here as well. With the standard settings, these are __ __wildcardname__ __
 
 In this example, I have a bird.txt wildcard file in \extensions\sd-dynamic-prompts\wildcards\
 
-Now in One Button Prompt, I set the following:
+Now in Two Button Prompt, I set the following:
 __Subject Types__ = "animal"
 __Artists__ = "sci-fi" or "none", depending on taste. Sometimes the sc-fi artists generate other types of "bird".
 __Type of image__ = "digital art"
@@ -90,9 +90,9 @@ here are some examples:
 
 # Dynamic Prompts extension and basic usage
 
-Examples of using the {cat|dog} basic usage syntax working with One Button Prompt.
+Examples of using the {cat|dog} basic usage syntax working with Two Button Prompt.
 
-In One Button Prompt, I set the following:
+In Two Button Prompt, I set the following:
 __Subject Types__ = "animal"
 __Artists__ = "sculpture"
 __Overwrite type of image__ = "sculpture"

@@ -1,11 +1,11 @@
 # Override subject and how to create infinite variations of a set subject
-Overriding a subject is one of the most __powerful__ ways of experiencing One Button Prompt.
+Overriding a subject is one of the most __powerful__ ways of experiencing Two Button Prompt.
 
 This will allow you to explore infinite variants of a subject of your own choice.
 
 This also creates the option of adding a subject that requires a LoRA.
 
-There are 2 settings that can be found in the Main tab of One Button Prompt:
+There are 2 settings that can be found in the Main tab of Two Button Prompt:
 ### Overwrite Subject
 Any text you place in "Subject overwrite" will be treated as the subject to generate. 
 
@@ -67,7 +67,7 @@ type of image: __all__
 
 Overwrite subject: __Daenerys Targaryen__
 
-These settings give One Button Prompt a lot of freedom, because we set Artists and Type of image both to "All". As a result, we get a wide range of diversity. It also creates less good results because of this, but that is to be expected. It also creates some really imaginitive stuff, especially running on a versatile model such as Deliberate.
+These settings give Two Button Prompt a lot of freedom, because we set Artists and Type of image both to "All". As a result, we get a wide range of diversity. It also creates less good results because of this, but that is to be expected. It also creates some really imaginitive stuff, especially running on a versatile model such as Deliberate.
 
 <img src="https://github.com/AIrjen/OneButtonPrompt/assets/130234949/c69ecc7f-af8d-4451-be05-60c21a17783a.png" alt="Daenerys Targaryen settings" width="60%" height="60%">
 
@@ -157,7 +157,7 @@ This means, you can form override subject prompts like this:
 ### Wildcards
 In the backend of the code, some of the things run on wildcards. These can be used in the prompt prefix, prompt suffix and subject override fields.  They get values from their specific related lists.
 
-Currently, One Button Prompt supports the following wildcards.
+Currently, Two Button Prompt supports the following wildcards.
 
 - -color-
 - -material-

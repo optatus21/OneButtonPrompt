@@ -1,7 +1,7 @@
 # ComfyUI integration
-One Button Prompt is now also a ComfyUI extension.
+Two Button Prompt is now also a ComfyUI extension.
 
-There are 8 nodes currently availabe, with One Button Prompt node being the main one.
+There are 8 nodes currently availabe, with Two Button Prompt node being the main one.
 You can slam it in every workflow, where you replace it with the Positive Prompt node.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/271dc575-dfe7-48dc-bef5-222d0af53344)
@@ -9,7 +9,7 @@ You can slam it in every workflow, where you replace it with the Positive Prompt
 
 
 ## Installing in ComfyUI
-One Button Prompt is available in ComfyUI manager.
+Two Button Prompt is available in ComfyUI manager.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/54825420-ae69-4a9b-9dce-dad6baef8875)
 
@@ -42,7 +42,7 @@ In this project, there are some example workflows included.
 
 ## Custom nodes
 
-### One Button Prompt
+### Two Button Prompt
 
 All settings work similar to the settings in the Automatic1111 documentation.
 
@@ -54,7 +54,7 @@ Please refer to the other documentation to see what each setting does.
 
 ## One Button Preset
 
-Preset settings of One Button Prompt. Refer to [One Button Presets](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/one_butten_presets.md) for more information regarding the presets.
+Preset settings of Two Button Prompt. Refer to [One Button Presets](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/one_butten_presets.md) for more information regarding the presets.
 
 Has a simple prompt output and a preset selector. You can add new presets by manual adjusting the /userfiles/obp_presets.json JSON file.
 
@@ -77,7 +77,7 @@ It has the following settings to play with:
 
 ## One Button Flufferize
 
-One Button Prompts lightweight implementation of Fooocus Prompt Magic. It will enhance the output by adding quality tags at the end of your prompt. See the example above.
+Two Button Prompts lightweight implementation of Fooocus Prompt Magic. It will enhance the output by adding quality tags at the end of your prompt. See the example above.
 
 It is standardly set to __dynamic__. You can turn it off by choosing __none__.
 
@@ -86,7 +86,7 @@ Choose __short__, __medium__ or __long__ for more direct control.
 Don't __reverse the polarity!__
 
 ## One Button SuperPrompt
-One Button prompts integration of the SuperPrompt-v1 model. This is a different implementation than [NeuralSamurAI](https://github.com/NeuralSamurAI/Comfyui-Superprompt-Unofficial) his node.
+Two Button Prompts integration of the SuperPrompt-v1 model. This is a different implementation than [NeuralSamurAI](https://github.com/NeuralSamurAI/Comfyui-Superprompt-Unofficial) his node.
 
 Its simple, type in what you want to see, and let it do its magic.
 
@@ -124,7 +124,7 @@ Use the Save Prompt To File node to actually save the prompt in a text file. Sin
 
 You can also use other extension for this. But I thought it was nice to include a save options nativly. There are other options out there as well.
 
-Just simply also connect the output of One Button Prompt to the Postive Prompt node.
+Just simply also connect the output of Two Button Prompt to the Postive Prompt node.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/edaf7cec-7e95-46a9-84dc-00da4aaf2c4e)
 
@@ -144,5 +144,5 @@ insanitylevel --> Larger numbers will randomly lower the amount of things in the
 
 ### Known issues
 
-1. There is a SEED option in the One Button Prompt node, this is a hacky thing. It is just there to make sure it is refired each time you generate an image.
+1. There is a SEED option in the Two Button Prompt node, this is a hacky thing. It is just there to make sure it is refired each time you generate an image.
 

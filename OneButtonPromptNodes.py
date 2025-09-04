@@ -846,7 +846,7 @@ NODE_CLASS_MAPPINGS = {
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "OneButtonPrompt": "One Button Prompt",
+    "OneButtonPrompt": "Two Button Prompt",
     "OneButtonPreset": "One Button Preset",
     "OneButtonArtify": "One Button Artify",
     "CreatePromptVariant": "Create Prompt Variant",

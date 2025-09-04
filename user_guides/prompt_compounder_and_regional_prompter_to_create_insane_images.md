@@ -2,16 +2,16 @@
 Note: all images on this pages were generated with the [DiffusionBrushEverything model](https://civitai.com/models/46294/diffusion-brush-everything-sfw-nsfw-all-purpose-checkpoint-nuclear-diffusion-anime-hybrid). I feel like this model is not getting enough appreciation.
 
 # Prompt Compounder
-The prompt compounder funcionality can be found on the Advanced Tab of the One Button Prompt script.
+The prompt compounder funcionality can be found on the Advanced Tab of the Two Button Prompt script.
 
-This function was created after the very first release of One Button Prompt. There was a massive bug, when you ran in batch mode, the prompts would not reset. Causing each batch to compound the generated prompts together.
+This function was created after the very first release of Two Button Prompt. There was a massive bug, when you ran in batch mode, the prompts would not reset. Causing each batch to compound the generated prompts together.
 
 Redditor drone2222 suggested to bring this back as a feature, as he said: "it creates interesting results". And is totally correct. I brought it back as a feature, adjusted and improved the logic, so it can also be used for Latent Couple/Regional Prompter extensions.
 
-Coupled with those extensions, One Button Prompt goes to the next level. Creating unique results. I wanted to describe how to do this. But first, let starts with the basics.
+Coupled with those extensions, Two Button Prompt goes to the next level. Creating unique results. I wanted to describe how to do this. But first, let starts with the basics.
 
 # Basic prompt compounding
-Normally, One Button Prompt generates one prompt for you. With the Prompt compounder, you can increase that amount. For example, you can set it to 2.
+Normally, Two Button Prompt generates one prompt for you. With the Prompt compounder, you can increase that amount. For example, you can set it to 2.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/e236e05c-ec2d-460c-80c9-bf0b6af59796)
 
@@ -43,20 +43,20 @@ For this, you need to have the [Regional Prompter](https://github.com/hako-mikan
 
 In these examples, I am generating at 1440x512. So an extremely large width value.
 
-For the One Button Prompt settings, I have the following set up:
+For the Two Button Prompt settings, I have the following set up:
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/849ee4fd-9916-4b92-9b97-644ed6776557)
 
 I have set the __Subject Type__ to "landscape" and __Artists__ to "vibrant". Other good Artists to explore are "landscape", "fantasy" and "sci-fi".
 
 For Regional Prompter, I load up the __"Horizontal-3"__ Preset, and then enable __"Use common prompt"__, and set the __Base Ratio to '0.4'__. Increasing the base ratio, will eventuallu raise the impact of the artist on the end result. I feel 0.4 is a good sweet spot for this example.
 
-This will mark that we should divide our large wide settings into 3 pieces. With "Use common prompt" we set it up to be used with how One Button Prompt forms these kinds of prompts.
+This will mark that we should divide our large wide settings into 3 pieces. With "Use common prompt" we set it up to be used with how Two Button Prompt forms these kinds of prompts.
 
 You can press "visualize and make template" to check if the settings are all correct. It should look like this.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/6a4bc9be-a163-45de-8b3a-d280f7102009)
 
-On the Advanced tab of One Button Prompt, we set the following:
+On the Advanced tab of Two Button Prompt, we set the following:
 
 __Prompt Compounder__ to 3, we have 3 areas to be filled in. So we want 3 seperate prompts.
 
@@ -106,7 +106,7 @@ Using the "Twod-2-1" preset, and setting One Buttom Prompt to generate all kinds
 
 These examples are all generated at 1200x1200 (who needs hi. res fix anyway).
 
-For One Button Prompt main settings, I let it generate everything, I want to create some insanity:
+For Two Button Prompt main settings, I let it generate everything, I want to create some insanity:
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/920a8890-a2e1-416f-a808-641567ed4c95)
 
 
@@ -178,7 +178,7 @@ Please note, that this doesn't always add two people in the shot, but at least i
 
 I am running these in a 1024x512 resolution. You can also try using a model that supports better realistic photographs.
 
-For One Button Prompt settings, I set the following:
+For Two Button Prompt settings, I set the following:
 
 __Subject Types__ to "humanoid", __Artist__ to "none", __type of image__ to "photograph"
 

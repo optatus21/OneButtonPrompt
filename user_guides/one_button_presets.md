@@ -2,7 +2,7 @@
 
 One Button Presets are saved generation settings that can be instantly loaded up. You can save your own presets as well.
 
-This will make it easier to get good results out of One Button Prompt. There is a large set of presets available. These are to show of some of the tweaks and logic you can do and achieve with the settings.
+This will make it easier to get good results out of Two Button Prompt. There is a large set of presets available. These are to show of some of the tweaks and logic you can do and achieve with the settings.
 
 Set the One Button Preset to __"Custom..."__ to show all settings.
 
@@ -10,7 +10,7 @@ Set the One Button Preset to __"Custom..."__ to show all settings.
 
 The following presets are available on default.
 
-- Standard -> One Button Prompts default. Wild and unpredictable. Good for prompt exploration.
+- Standard -> Two Button Prompts default. Wild and unpredictable. Good for prompt exploration.
 - Consistent results -> Running on a large set of build in styles, to get consistent results in prompts. Works best on SDXL.
 - Unique People Portraits -> Focus on generating photographic people portraits.
 - Artful People Portraits -> Focus on people portraits, mixed with portrait style artists.

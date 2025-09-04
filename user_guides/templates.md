@@ -3,14 +3,14 @@
 
 # Templates and "only templates" mode
 
-There is a small chance, that One Button Prompt generates a prompt based on a template instead of a fully randomized generated prompt. You can also force it to use "only templates". But what does this mean exactly? I hope to answer these questions here.
+There is a small chance, that Two Button Prompt generates a prompt based on a template instead of a fully randomized generated prompt. You can also force it to use "only templates". But what does this mean exactly? I hope to answer these questions here.
 
 This feature was build for beginners. Instead of copy/pasting existing interesting prompts from the web, I've already done so for you. There are currently over 500+ prompt templates available.
 
 Hopefully, this will inspire you as well.
 
 ### What is a prompt __template__?
-A __prompt template__ is a preconfigured prompt which uses One Button Prompt wildcards to be randomized.
+A __prompt template__ is a preconfigured prompt which uses Two Button Prompt wildcards to be randomized.
 
 These __prompt templates__ are based on various popular existing prompts, from example civitai, prompthero, promptbook, replicable, openart sources. They try to add randomizition while keeping in line with the original prompt.
 
@@ -43,10 +43,10 @@ Here are some examples of this specific prompt template:
 
 > a Mr. Spock, wearing a Umbrella, smoked in her hands, school, flower field, (soothing tones:1.25), (hdr:1.25), (artstation:1.2), dramatic, (intricate details:1.14), (hyperrealistic 3d render:1.16), (filmic:0.55), (rutkowski:1.1), (faded:1.3)
 
-As you can see, it still feels very One Button Prompty, while still being true to much of the original prompt.
+As you can see, it still feels very Two Button Prompty, while still being true to much of the original prompt.
 
 ## Running with "only templates"
-The prompt templates with show up once in a while during normal use of One Button Prompt. This can be set under __"type of image"__ . Set this to __"only templates"__. This will force One Button Prompt to only work bsaed of prompt templates instead of its normal randomized generation.
+The prompt templates with show up once in a while during normal use of Two Button Prompt. This can be set under __"type of image"__ . Set this to __"only templates"__. This will force Two Button Prompt to only work bsaed of prompt templates instead of its normal randomized generation.
 
 ![only templates option](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/c60e4b5b-d4d4-4939-a1c4-ba8a575b2a7b)
 
@@ -65,13 +65,13 @@ Example:
 ![templates example with custom subject](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/2fdc8835-62d0-4650-90d4-f966bf2de286)
 
 ## Adding new prompt templates
-You can add your own prompt templates as well, or even override the entire set with your own templates. This is done through the __custom files__ logic that works for every file in One Button Prompt.
+You can add your own prompt templates as well, or even override the entire set with your own templates. This is done through the __custom files__ logic that works for every file in Two Button Prompt.
 
 Refer to the basics here: [guide to custom files](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/custom_files.md)
 
 Refer to the wildcards here: [guide to using wildcards and Dynamic Prompts](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/wildcards_and_dynamic_prompts_extension.md)
 
-You can place a __"templates_addon.csv"__ or a __"templates_replace.csv"__ file in the __userfiles__ folder of One Button Prompt.
+You can place a __"templates_addon.csv"__ or a __"templates_replace.csv"__ file in the __userfiles__ folder of Two Button Prompt.
 
 Refer to __\csvfiles\templates\templates.csv__ for how the prompt templates are build up.
 
@@ -107,7 +107,7 @@ Here are some random examples from the current __templates.csv__:
 
 ## Contributing
 
-If you would like your prompt templates to be added to One Button Prompt, you can:
+If you would like your prompt templates to be added to Two Button Prompt, you can:
 
 - Send a message with the templates in the GitHub discussions, or find me on reddit \u\AIrjen
 - Be a pro, and create a Pull request

@@ -1,6 +1,6 @@
-# Combining One Button Prompt with IMG2IMG and ControlNET
+# Combining Two Button Prompt with IMG2IMG and ControlNET
 
-Since One Button Prompt does nothing more than generate a prompt, means we can combine it with most other tools and extensions available. In this document, I'd like to show you some possibilities of using it with IMG2IMG functionality and ControlNET.
+Since Two Button Prompt does nothing more than generate a prompt, means we can combine it with most other tools and extensions available. In this document, I'd like to show you some possibilities of using it with IMG2IMG functionality and ControlNET.
 Hopefully this will lead to additional inspiration and new ways to approach these tools.
 
 In these examples, I am all using the [deliberate](https://civitai.com/models/4823/deliberate) model.
@@ -15,9 +15,9 @@ In this example, I'm using a picture of a skull found on the internet. I'm using
 
 I load up this image in IMG2IMG. I kept the Denoise strength at 0.75 for this example.
 
-In One Button Prompt, I use the following settings:
+In Two Button Prompt, I use the following settings:
 
-As a __"Subject Type"__ I select __"object"__, because we are generating a skull, and a skull is an object. At least, from One Button Prompt's perspective.
+As a __"Subject Type"__ I select __"object"__, because we are generating a skull, and a skull is an object. At least, from Two Button Prompt's perspective.
 
 For __"Artists"__ I select __"all"__. I want to get surprised, so I leave this to all.
 
@@ -58,7 +58,7 @@ I'm using the setting __"My prompt is more important"__
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/6a2ea3f4-c398-4be3-b3f4-4b58a58b9505)
 
-I've set up One Button Prompt to the following settings:
+I've set up Two Button Prompt to the following settings:
 
 As a __"Subject Type"__ I select __"object"__, however, you could try __all__ to get even wierder results.
 
@@ -86,7 +86,7 @@ Example images:
 
 ## Reverse inpainting of Pedro Pascal
 
-One Button prompt can also usefull in inpainting tasks. In this example, I'm going to do what I like to call a "reverse inpaint". This time on the face of Pedro Pascal. Note that this trick will also work on your own face.
+Two Button Prompt can also usefull in inpainting tasks. In this example, I'm going to do what I like to call a "reverse inpaint". This time on the face of Pedro Pascal. Note that this trick will also work on your own face.
 
 First I load up the foto of Pedro Pascal in the Inpaint tab, and then I paint over his face. It doesn't have to be perfect.
 
@@ -98,7 +98,7 @@ I've set __padding__ to __"64"__ and __mask blur__ to __"8"__. __Denoising stren
 
 I then load up an inpainting model. Because we are using a photo, I am using the realisticVision inpainting model for this example.
 
-For One Button Prompt, I set the following settings:
+For Two Button Prompt, I set the following settings:
 
 As a __"Subject Type"__ I select __"humanoid"__
 
@@ -126,4 +126,4 @@ Example results:
 
 ### Thank you
 
-Hope to have give you some inspiration on where you could use One Button Prompt as well, in unexpected ways. Your creativity is what unlocks it's power.
+Hope to have give you some inspiration on where you could use Two Button Prompt as well, in unexpected ways. Your creativity is what unlocks it's power.

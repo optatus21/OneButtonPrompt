@@ -1,6 +1,6 @@
 # Be in control with config.csv
 
-After you start up One Button Prompt for the first time, it will create a config.csv file in the /userfiles/ folder.
+After you start up Two Button Prompt for the first time, it will create a config.csv file in the /userfiles/ folder.
 
 In this file, you can not only set what to generate, but you can even set the randomness of certain parts of the generation process.
 
@@ -8,7 +8,7 @@ To update the UI, you might need to restart WebUI.
 
 ###  On resetting/restoring the file
 
-If you made a mistake, or wish to fully restore the config.csv file in the /userfiles/ folder, simply remove it. It will be recreated by One Button Prompt.
+If you made a mistake, or wish to fully restore the config.csv file in the /userfiles/ folder, simply remove it. It will be recreated by Two Button Prompt.
 
 ## Setting main generation options
 
@@ -47,7 +47,7 @@ Example, if you don't want fictional characters or celebrities in the generation
 
 These options apply to the default prompt generation mode only. Here you can set the random chance of something appearing in the prompt, or even turn things on and off.
 
-The config you see is the default config of One Button Prompt.
+The config you see is the default config of Two Button Prompt.
 
 You can overwrite these, so for example, if you always want a pose to be generated change  __posechance;uncommon__ to  __posechance;always__
 

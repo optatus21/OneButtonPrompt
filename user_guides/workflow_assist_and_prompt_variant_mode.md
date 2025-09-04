@@ -26,12 +26,12 @@ Here are some results:
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/49e987f1-0576-413b-8800-8c81d17a25f3)
 
 ## Using the workflow prompt mode
-If you want to use the workflow prompt, turn on __Workflow mode__. This way the normal generation process of One Button Prompt is turned off, and it will now use whatever is in the prompt field.
+If you want to use the workflow prompt, turn on __Workflow mode__. This way the normal generation process of Two Button Prompt is turned off, and it will now use whatever is in the prompt field.
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/37f26cf7-6160-4185-9257-2b061b2e0d3a)
 
 #### Using wildcards in the workflow prompt
-The workflow prompt can process One Button Prompt wildcards. Please refer to [wildcards documentation](https://github.com/AIrjen/OneButtonPrompt/blob/docs_and_small_updates/user_guides/wildcards_and_dynamic_prompts_extension.md)
+The workflow prompt can process Two Button Prompt wildcards. Please refer to [wildcards documentation](https://github.com/AIrjen/OneButtonPrompt/blob/docs_and_small_updates/user_guides/wildcards_and_dynamic_prompts_extension.md)
 
 ## Using the prompt variant slider
 The prompt variant slider creates variants of the workflow prompt.
