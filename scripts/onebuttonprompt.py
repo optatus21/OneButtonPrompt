@@ -347,7 +347,7 @@ if(generateconceptmixer):
 class Script(scripts.Script):
     
     def title(self):
-        return "One Button Prompt"
+        return "Two Button Prompt"
 
     def show(self, is_img2img):
         return True
@@ -390,7 +390,7 @@ class Script(scripts.Script):
             with gr.Row(variant="compact"):
                 md_basic = gr.Markdown("""
                             <font size="2">
-                            One Button Prompt is now active. Just press the normal Generate button to start generating images.
+                            Two Button Prompt is now active. Just press the normal Generate button to start generating images.
 
                             Presets can be used to store and load settings.
 
@@ -686,9 +686,9 @@ class Script(scripts.Script):
 
                      With 🛠️ Workflow mode, you turn off the automatic generation of new prompts on 'generate', and it will use the Workflow prompt field instead. So you can work and finetune any fun prompts without turning of the script.
 
-                     You can use One Button Prompt wildcards in the workflow prompt. For example -outfit- .
+                     You can use Two Button Prompt wildcards in the workflow prompt. For example -outfit- .
 
-                     With the Prompt Variant, you can let One Button Prompt dynamically create small variance in the workflow prompt. 0 means no effect.
+                     With the Prompt Variant, you can let Two Button Prompt dynamically create small variance in the workflow prompt. 0 means no effect.
 
                      Below here, you can generate a set of random prompts, and send them to the Workflow prompt field. The generation of the prompt uses the settings in the Main tab.
                      </font>

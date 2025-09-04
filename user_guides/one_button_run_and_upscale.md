@@ -1,11 +1,11 @@
 # One Button Run and Upscale
-An extensive new feature of One Button Prompt. One Button goes brrrr.
+An extensive new feature of Two Button Prompt. One Button goes brrrr.
 
 This will allow you to:
 1. Generate an image with TXT2IMG
     1. Can enable Hi res. fix
     2. Possible to set up a __Quality Gate__, so only the best images get upscaled
-    3. Possible to ignore the One Button Prompt generation, and __use your own prompts__
+    3. Possible to ignore the Two Button Prompt generation, and __use your own prompts__
 2. Upscale that image with IMG2IMG
     1. This proces can be repeated. Loopback enabled.
     2. Supports __SD Upscale__, __Ultimate SD Upscale__ and __Controlnet tile_resample__ methods of upscaling
@@ -55,20 +55,20 @@ Here is an extensive [guide on civitai](https://civitai.com/models/59811/4k-reso
 Here is a [youtube video guide from Olivio Sarikas](https://www.youtube.com/watch?v=zrGLEgGFJY4)
 
 ## Image locations
-One Button Prompt uses its own locations and filenaming convention.
+Two Button Prompt uses its own locations and filenaming convention.
 
 Go to your WebUI installation folder and then \extensions\onebuttonprompt\automated_outputs\
 
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/4bbea176-0b8a-476e-b70a-48775b2875b9)
 
-Here you should see the One Button Prompt folder structure.
+Here you should see the Two Button Prompt folder structure.
 1. txt2img -> txt2img results from One Button Run are stored here.
 2. promps -> txt2img prompts and parameters used are stored here.
 3. img2img -> img2img results from One Button Run are stored here. With loopback enabled, they are overwritten when loopback is done.
 4. extras -> extras results from One Button Run are stored here.
 5. upscale_me -> Place images here for using "just upscale" mode.
 
-When using One Button Prompt to generate the prompt, the subject will be part of the name.
+When using Two Button Prompt to generate the prompt, the subject will be part of the name.
 
 Here are some examples, so you can quickly identify the different pictures.
 
@@ -82,7 +82,7 @@ Important to note, is that the TXT2IMG prompt generation process works with the 
 
 So you can set up any specifics you want for the prompt generation first.
 
-The __"folder"__ buttons opens to your One Button Prompt automated outputs folders.
+The __"folder"__ buttons opens to your Two Button Prompt automated outputs folders.
 
 There are some general options to set first.
 
@@ -234,7 +234,7 @@ You can set everything to "all", and just start generating a bunch of random stu
 I'm sure your specific way of upscaling and working is supported by all the options offered here. Missing something? Let me know!
 
 ## Using your own prompts
-If you don't like the results of the One Button Prompt generator (how could you not!), you can __turn off the prompt generation, and use your own prompts__ instead.
+If you don't like the results of the Two Button Prompt generator (how could you not!), you can __turn off the prompt generation, and use your own prompts__ instead.
 
 Go to the __"Workflow assist"__ tab, and enable __"Workflow mode"__.
 Put your prompt in the __Workflow prompt__ field, and it will start using that

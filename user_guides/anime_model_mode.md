@@ -1,6 +1,6 @@
 # Anime Model Mode
 
-Finally, One Button Prompt officially has a mode that supports Anime models. One Button Prompt has been focussed on SD based prompting first, and it kept getting worse in Anime Models. Now, it can do both! With a simple switch, set it up for anime/pony style models.
+Finally, Two Button Prompt officially has a mode that supports Anime models. Two Button Prompt has been focussed on SD based prompting first, and it kept getting worse in Anime Models. Now, it can do both! With a simple switch, set it up for anime/pony style models.
 
 In A1111, it can be found under Advanced > Base model. Here you can select __Anime Model__
 
@@ -21,7 +21,7 @@ It supports anime model prompting! The main focus is on generating characters an
 
 ## What it doesn't do
 
-It doesn't add any very explicit or NSFW tags. If you want to add these, take a look at [this page](https://github.com/AIrjen/OneButtonPrompt/blob/anime_model_mode/user_guides/custom_files.md) on how to add your own files or words into One Button Prompt.
+It doesn't add any very explicit or NSFW tags. If you want to add these, take a look at [this page](https://github.com/AIrjen/OneButtonPrompt/blob/anime_model_mode/user_guides/custom_files.md) on how to add your own files or words into Two Button Prompt.
 
 You could also add your specific tags in the prefix or suffix prompt.
 

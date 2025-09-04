@@ -2,11 +2,11 @@
 
 
 ---
-# One Button Prompt
+# Two Button Prompt
 
 # Summary
 
-One Button Prompt is a tool/script for Automatic1111/ComfyUI/RuinedFooocus for beginners who have problems writing a good prompt, or advanced users who want to get inspired.
+Two Button Prompt is a tool/script for Automatic1111/ComfyUI/RuinedFooocus for beginners who have problems writing a good prompt, or advanced users who want to get inspired.
 
 It generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it surprise you.
 
@@ -18,7 +18,7 @@ A simple user guide for first time use and settings is available [here](https://
 
 It is also now available as a custom node for ComfyUI. [Check installation doc here](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/comfyui_integration.md)
 
-More of a Fooocus fan? Take a look at this excellent fork called [RuinedFooocus](https://github.com/runew0lf/RuinedFooocus) that has One Button Prompt built in. [Check some options available here](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/ruinedfooocus_integration.md)
+More of a Fooocus fan? Take a look at this excellent fork called [RuinedFooocus](https://github.com/runew0lf/RuinedFooocus) that has Two Button Prompt built in. [Check some options available here](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/ruinedfooocus_integration.md)
 
 Any other AI tool you are using? Midjourney? Dalle? No problem, I got it working on [a website here](https://airjen.pythonanywhere.com/). Just copy the prompt to your clipboard with a click, and paste it in any image generator tool.
 
@@ -37,12 +37,12 @@ Any other AI tool you are using? Midjourney? Dalle? No problem, I got it working
 - Has a set of __template prompts__ from various sources, __fully wildcarded__ and usable with Subject Override ==> [guide to prompt templates](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/templates.md)
 - Has multiple __prompt generation modes__ to choose from ==> [guide to prompt generation modes](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/prompt_generation_modes.md)
 - Integration is available with the __superprompt-v1__ model ==> [guide to super prompt](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/superprompt.md)
-- Stay in control, and fine-tune One Button Prompt with a __config__ file ==> [config file](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/config_file.md)
+- Stay in control, and fine-tune Two Button Prompt with a __config__ file ==> [config file](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/config_file.md)
 - __Flufferize__ your prompt to enhance your results with Prompt Magic
 
 ## Important Notice
 
-One Button Prompt had a recent large change in the UI when Presets were introduced. This might be confusing for long time users.
+Two Button Prompt had a recent large change in the UI when Presets were introduced. This might be confusing for long time users.
 
 If you are not finding the settings, change the __"One Button Preset"__ to __"Custom..."__.
 
@@ -53,7 +53,7 @@ Subtypes are also completely gone now, and integrated into the subject field.
 Loading the first time after upgrading on ComfyUI might give some errors, because the fields have shifted. Just set the settings back.
 
 ## How to use in automatic1111/SD.next
-In TXT2IMG or IMG2IMG, select the script "One Button Prompt".
+In TXT2IMG or IMG2IMG, select the script "Two Button Prompt".
 
 <img src="https://github.com/AIrjen/OneButtonPrompt/assets/130234949/b43f7bef-533d-4139-a477-562a0b2d39ca.png" width="50%" height="50%">
 
@@ -108,7 +108,7 @@ For each Batch you run, it will create a new prompt. For each batch size, it wil
 
 
 # Installing in automatic1111
-One Button Prompt can be found in the normal installation list of Automatic1111. Go to Extension -> Available and press Load From. In the list you will see One Button Prompt, and press install.
+Two Button Prompt can be found in the normal installation list of Automatic1111. Go to Extension -> Available and press Load From. In the list you will see Two Button Prompt, and press install.
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/d98cba69-d249-4f4a-8965-2dd4509dc11c)
 
 
@@ -121,11 +121,11 @@ You can also download the files from github directly, and place them under your 
 
 # Main tab
 
-The main tab will show preset options, which are preset generation settings which will help achieve good results. On default, it is set to __Standard__, which was the previous default setting of One Button Prompt. It is quite random and give some wild results.
+The main tab will show preset options, which are preset generation settings which will help achieve good results. On default, it is set to __Standard__, which was the previous default setting of Two Button Prompt. It is quite random and give some wild results.
 
 If you are looking for more guided results, choose a different preset. Some good first choices are:
 
-- Standard -> One Button Prompts default. Wild and unpredictable. Good for prompt exploration.
+- Standard -> Two Button Prompts default. Wild and unpredictable. Good for prompt exploration.
 - Unique People Portraits -> Will focus on generating photographic people
 - D&D Style Portraits -> Will focus on generating fantasy style portraits
 - Consistent Results -> Running on a large set of build in styles, to get consistent results in prompts. Works best on SDXL.
@@ -181,7 +181,7 @@ This will allow you to:
 1. Generate an image with TXT2IMG
     1. Can enable Hi res. fix
     2. Possible to set up a __Quality Gate__, so only the best images get upscaled
-    3. Possible to ignore the One Button Prompt generation, and __use your own prompts__
+    3. Possible to ignore the Two Button Prompt generation, and __use your own prompts__
 2. Upscale that image with IMG2IMG
     1. This proces can be repeated. Loopback enabled.
     2. Supports __SD Upscale__, __Ultimate SD Upscale__ and __Controlnet tile_resample__ methods of upscaling

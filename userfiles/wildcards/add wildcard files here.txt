@@ -1,5 +1,5 @@
 Add wildcard files here, if you can't make use of Dynamic Prompts.
-Files can be called as "sample_wildcard.csv" and are then usable in One Button Prompt with -sample_wildcard- as the wildcard.
+Files can be called as "sample_wildcard.csv" and are then usable in Two Button Prompt with -sample_wildcard- as the wildcard.
 .txt files are also supported here.
 
 It is not possible to call build-in wildcards from the custom wildcards.

@@ -17,7 +17,7 @@ You can increase the batch count, to keep creating new images.
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/07d2a841-bbf0-499b-baf3-d9c037c8e98d)
 
 
-Then I scroll down and activate the One Button prompt script.
+Then I scroll down and activate the Two Button Prompt script.
 
 I set the complexity of the prompt to 5, which is a nice middle ground for prompts.
 
@@ -159,6 +159,6 @@ Thanks for reading so far, want more?
 
 Next up is reading [guide to override subject](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/override_subject_and_infinite_variations.md)
 
-This will show you how to generate a set subject, and then One Button Prompt will generate the rest of the prompt around it. This is a very popular feature of One Button Prompt.
+This will show you how to generate a set subject, and then Two Button Prompt will generate the rest of the prompt around it. This is a very popular feature of Two Button Prompt.
 
 You can also go to [guide to IMG2IMG and ControlNET](https://github.com/AIrjen/OneButtonPrompt/blob/main/user_guides/the_next_generation_img2img_and_controlnet.md) to see how it combines with those features.

@@ -4,13 +4,13 @@ In the /userfiles/ directory it is possible to include personal additions and ov
 These are the things that are possible:
 - Adding style LoRA's and textual inversions
 - Maintaining own personal favorite artists lists
-- Adding on to, or replacing One Button Prompt main lists
+- Adding on to, or replacing Two Button Prompt main lists
 - Adding custom lists
 - filling an antilist, that removes values during prompt generation
 
 In the /userfiles/ directory, there are already samples placed to help. These are ignored.
 
-Files created here will not be overwritten during upgrading of One Button Prompt.
+Files created here will not be overwritten during upgrading of Two Button Prompt.
 
 ## Adding style LoRA's and textual inversions
 
@@ -31,7 +31,7 @@ Filename: __personal_artists_xyz.csv__   (replace xyz with the name of your choi
 
 Add any number of files formed as personal_artists_xyz.csv. 
   
-These will show up in the artists selection in One Button Prompt.
+These will show up in the artists selection in Two Button Prompt.
 
 For example, you can create a personal_artists_portrait.csv and a personal_artists_favorites.csv. Both will then show up as options.
  
@@ -46,7 +46,7 @@ This is how it will then show up in the WebUI:
 ![image](https://github.com/AIrjen/OneButtonPrompt/assets/130234949/ce100d74-8a0a-4927-8b90-fab9cb8f2e48)
 
 
-## Adding on to, or replacing One Button Prompt main lists
+## Adding on to, or replacing Two Button Prompt main lists
 Filename: __listname_addon.csv__  (replace listname with the name of the corresponding csv file in /csvfiles/ directory)
 
 Filename: __listname_replace.csv__  (replace listname with the name of the corresponding csv file in /csvfiles/ directory)
